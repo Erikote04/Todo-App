@@ -2,8 +2,8 @@
 
 Manage your tasks efficiently with this simple Task Manager application built using HTML, CSS, and JavaScript. Keep track of your to-dos, edit details, and never miss a deadline.
 
-<img width="430" alt="task-added" src="https://github.com/Erikote04/Todo-App/assets/126704751/4ff22c72-152d-4544-81c7-42ebd4e0b3f8">
-<img width="430" alt="add-task" src="https://github.com/Erikote04/Todo-App/assets/126704751/e482ae32-342b-4fc3-a132-682afbf87064">
+<img width="400" alt="task-added" src="https://github.com/Erikote04/Todo-App/assets/126704751/4ff22c72-152d-4544-81c7-42ebd4e0b3f8">
+<img width="400" alt="add-task" src="https://github.com/Erikote04/Todo-App/assets/126704751/e482ae32-342b-4fc3-a132-682afbf87064">
 
 ## Introduction
 
