@@ -123,6 +123,8 @@ const myTaskArr = [
 
 localStorage.setItem("data", JSON.stringify(myTaskArr));
 
+localStorage.removeItem('data'); // Open the console to observe the result. You should see null.
+
 const getTaskArr = localStorage.getItem('data');
 console.log(getTaskArr);
 
