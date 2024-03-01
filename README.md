@@ -36,7 +36,8 @@ The confirmation dialog prompts you to confirm or discard changes before closing
 
 To use Task Manager:
 
-1. Clone the repository or download the project files.
+1. Clone the repository:
+   `git clone https://github.com/Erikote04/Todo-App.git`
 2. Open the `index.html` file in a web browser.
 3. Start adding and managing your tasks.
 
