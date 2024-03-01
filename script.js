@@ -15,7 +15,7 @@ let currentTask = {};
 
 const addOrUpdateTask = () => {
     addOrUpdateTaskBtn.innerText = 'Add Task';
-    
+
     const dataArrIndex = taskData.findIndex((item) => item.id === currentTask.id);
     const taskObj = {
         id: `${titleInput.value.toLowerCase().split(" ").join("-")}-${Date.now()}`,
@@ -87,8 +87,13 @@ openTaskFormBtn.addEventListener('click', () => {
 });
 
 closeTaskFormBtn.addEventListener('click', () => {
-    const formInputsContainValues = titleInput.value || dateInput.value || descriptionInput.value;
-
+    const formInputsContainValues = titleInput.value || 
+                                    dateInput.value || 
+                                    descriptionInput.value;
+    const formInputValuesUpdated = titleInput.value !== currentTask.title || 
+                                    dateInput.value !== currentTask.date || 
+                                    descriptionInput.value !== currentTask.description
+    
     if (formInputsContainValues) {
         confirmCloseDialog.showModal();
     } else {
