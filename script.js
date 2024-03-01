@@ -121,4 +121,6 @@ const myTaskArr = [
     { task: "Watch football", date: "10-08-2021" },
 ];
 
-localStorage.setItem("data", JSON.stringify(myTaskArr)); // Open your browser console and go to the Applications tab and select Local Storage (freeCodeCamp domain)
+localStorage.setItem("data", JSON.stringify(myTaskArr));
+const getTaskArr = localStorage.getItem('data');
+console.log(getTaskArr);
