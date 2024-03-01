@@ -103,6 +103,10 @@ closeTaskFormBtn.addEventListener('click', () => {
     }
 });
 
+if (taskData.length) {
+    updateTaskContainer();
+}
+
 cancelBtn.addEventListener('click', () => {
     confirmCloseDialog.close();
 });
